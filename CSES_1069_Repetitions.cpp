@@ -1,6 +1,6 @@
 /**
  * @author Ashutosh Sharma
- *
+ * Problem https://cses.fi/problemset/task/1069
  * Time complexity : O(n)
  * Space Complexity : O(1)
  * compare current character with previous character 
