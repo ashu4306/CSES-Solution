@@ -16,13 +16,13 @@ int main() {
     cin>>DNA_sequence;
     int n = DNA_sequence.size();
 
-    int longest_repttion = 1;
+    int longest_reptition = 1;
     int current_longest = 1;
 
     for(int i=1;i<n;i++) {
         if(DNA_sequence[i] == DNA_sequence[i-1]) current_longest++;
         else current_longest = 1;
-        longest_repttion = max(longest_repttion,current_longest);
+        longest_reptition = max(longest_repttion,current_longest);
     }
-    cout<<longest_repttion;
+    cout<<longest_reptition;
 }
